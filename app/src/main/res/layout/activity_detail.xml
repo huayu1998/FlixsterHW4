@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailActivity"
-    android:background="@color/black">
+    android:background="@color/black"
+    tools:context=".DetailActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card"
@@ -32,9 +32,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:layout_toEndOf="@+id/card"
-        android:shadowColor="@color/white"
+        android:shadowColor="@color/red"
         android:shadowDx="6"
         android:shadowDy="6"
         android:shadowRadius="8"
@@ -43,22 +43,48 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/card"
+        app:layout_constraintTop_toBottomOf="@+id/star"
         tools:text="Godzilla vs. Kong" />
 
     <TextView
         android:id="@+id/tvOverview"
-        android:layout_width="329dp"
-        android:layout_height="366dp"
+        android:layout_width="345dp"
+        android:layout_height="346dp"
         android:layout_below="@id/tvTitle"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:layout_toEndOf="@+id/card"
         android:textColor="@color/white"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        app:layout_constraintTop_toBottomOf="@+id/release"
         tools:text="In a time when monsters walk the Earth, humanity’s fight for its future sets Godzilla and Kong on a collision course that will see the two most powerful forces of nature on the planet collide in a spectacular battle for the ages." />
+
+    <RatingBar
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:stepSize="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card" />
+
+    <TextView
+        android:id="@+id/release"
+        android:layout_width="252dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="8dp"
+        android:text="Release Date:"
+        android:shadowColor="@color/white"
+        android:shadowDx="6"
+        android:shadowDy="6"
+        android:shadowRadius="8"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

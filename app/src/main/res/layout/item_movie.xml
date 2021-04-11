@@ -42,7 +42,7 @@
         android:textSize="24sp"
         tools:text="Godzilla vs. Kong"
         android:textColor="@color/white"
-        android:shadowColor="@color/white"
+        android:shadowColor="@color/blue"
         android:shadowDx="6"
         android:shadowDy="6"
         android:shadowRadius="8" />

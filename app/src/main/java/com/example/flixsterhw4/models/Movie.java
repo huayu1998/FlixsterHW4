@@ -13,6 +13,8 @@ public class Movie {
     String posterPath;
     String title;
     String overview;
+    String releaseDate;
+    double rate;
 
     // The constructor of the Movie class
     public Movie(JSONObject jsonObject) throws JSONException {
@@ -20,6 +22,8 @@ public class Movie {
         posterPath = jsonObject.getString("poster_path");
         title = jsonObject.getString("title");
         overview = jsonObject.getString("overview");
+        releaseDate = jsonObject.getString("release_date");
+        rate = jsonObject.getDouble("vote_average");
     }
 
     public static List<Movie> fromJsonArray(JSONArray movieJsonArray) throws JSONException {
@@ -45,4 +49,10 @@ public class Movie {
     public String getOverview() {
         return overview;
     }
+
+    public String getReleaseDate() {
+        return releaseDate;
+    }
+
+    public float getRate() { return (float)(float)rate/(float)2; }
 }

@@ -21,16 +21,16 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### First GIF
 
-![Kapture 2021-04-09 at 17 50 05](https://user-images.githubusercontent.com/61512581/114171092-654a1580-9966-11eb-85f1-ac158bdeea8d.gif)
+![Kapture 2021-04-11 at 23 01 35](https://user-images.githubusercontent.com/61512581/114309675-8fdccf80-9b1a-11eb-88e9-eb9f9b617e03.gif)
 
 ### Second GIF
 
-![Kapture 2021-04-09 at 19 17 03](https://user-images.githubusercontent.com/61512581/114172439-4056a200-9968-11eb-84e9-b84546e11ab9.gif)
+![Kapture 2021-04-11 at 23 05 24](https://user-images.githubusercontent.com/61512581/114309730-c7e41280-9b1a-11eb-8bd7-75fe53e545a5.gif)
 
 
-<img src="https://user-images.githubusercontent.com/61512581/114171092-654a1580-9966-11eb-85f1-ac158bdeea8d.gif" width=250><br>
+<img src="https://user-images.githubusercontent.com/61512581/114309675-8fdccf80-9b1a-11eb-88e9-eb9f9b617e03.gif" width=250><br>
 
-<img src="https://user-images.githubusercontent.com/61512581/114172439-4056a200-9968-11eb-84e9-b84546e11ab9.gif" width=250><br>
+<img src="https://user-images.githubusercontent.com/61512581/114309730-c7e41280-9b1a-11eb-8bd7-75fe53e545a5.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.

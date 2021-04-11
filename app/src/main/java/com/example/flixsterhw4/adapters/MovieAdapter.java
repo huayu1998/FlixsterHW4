@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -63,6 +64,9 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
                 intent.putExtra("overview", movie.getOverview());
                 intent.putExtra("poster", movie.getPosterPath());
                 intent.putExtra("backdrop", movie.getBackDropPath());
+                intent.putExtra("rate", movie.getRate());
+                intent.putExtra("release", movie.getReleaseDate());
+                Toast.makeText(context, movie.getTitle() + " Details!", Toast.LENGTH_LONG).show();
                 context.startActivity(intent);
             }
         });
