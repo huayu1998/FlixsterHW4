@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/gray"
     tools:context=".DetailActivity">
 
     <androidx.cardview.widget.CardView
@@ -34,22 +34,22 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="8dp"
         android:layout_toEndOf="@+id/card"
-        android:shadowColor="@color/red"
+        android:shadowColor="@color/blue"
         android:shadowDx="6"
         android:shadowDy="6"
         android:shadowRadius="8"
         android:textColor="@color/white"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/star"
         tools:text="Godzilla vs. Kong" />
 
     <TextView
         android:id="@+id/tvOverview"
-        android:layout_width="345dp"
-        android:layout_height="346dp"
+        android:layout_width="319dp"
+        android:layout_height="334dp"
         android:layout_below="@id/tvTitle"
         android:layout_marginTop="8dp"
         android:layout_toEndOf="@+id/card"

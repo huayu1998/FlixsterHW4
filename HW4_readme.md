@@ -6,7 +6,6 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ## Flix
 
 ### User Stories
-`TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (Remove this paragraph after after checking off completed user stories)
 
 #### REQUIRED (10pts)
 - [x] (70pts) User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
@@ -16,21 +15,19 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (20pts) Improved the user interface by experimenting with styling and coloring.
 
 ### App Walkthough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (
-   Remove this paragraph after after adding gif)
 
 ### First GIF
 
-![Kapture 2021-04-11 at 23 01 35](https://user-images.githubusercontent.com/61512581/114309675-8fdccf80-9b1a-11eb-88e9-eb9f9b617e03.gif)
+![Kapture 2021-04-14 at 12 39 43](https://user-images.githubusercontent.com/61512581/114655590-106c1d80-9d1f-11eb-9a3a-628a7dc8da62.gif)
 
 ### Second GIF
 
-![Kapture 2021-04-11 at 23 05 24](https://user-images.githubusercontent.com/61512581/114309730-c7e41280-9b1a-11eb-8bd7-75fe53e545a5.gif)
+![Kapture 2021-04-14 at 12 42 52](https://user-images.githubusercontent.com/61512581/114655647-30034600-9d1f-11eb-8f28-35edf08f1733.gif)
 
 
-<img src="https://user-images.githubusercontent.com/61512581/114309675-8fdccf80-9b1a-11eb-88e9-eb9f9b617e03.gif" width=250><br>
+<img src="hhttps://user-images.githubusercontent.com/61512581/114655590-106c1d80-9d1f-11eb-9a3a-628a7dc8da62.gif" width=250><br>
 
-<img src="https://user-images.githubusercontent.com/61512581/114309730-c7e41280-9b1a-11eb-8bd7-75fe53e545a5.gif" width=250><br>
+<img src="https://user-images.githubusercontent.com/61512581/114655647-30034600-9d1f-11eb-8f28-35edf08f1733.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.

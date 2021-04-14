@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/gray"
     tools:context=".DetailActivity">
 
     <androidx.cardview.widget.CardView
@@ -37,7 +37,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="10dp"
         android:layout_toEndOf="@+id/card"
-        android:shadowColor="@color/red"
+        android:shadowColor="@color/blue"
         android:shadowDx="6"
         android:shadowDy="6"
         android:shadowRadius="8"
