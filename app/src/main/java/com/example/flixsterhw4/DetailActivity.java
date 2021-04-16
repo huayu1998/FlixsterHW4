@@ -17,7 +17,6 @@ public class DetailActivity extends AppCompatActivity {
     TextView tvOverview;
     ImageView ivPoster;
     TextView release;
-
     String strOfTitle;
     String strOfOverview;
     String imageUrl;
